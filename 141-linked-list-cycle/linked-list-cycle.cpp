@@ -16,7 +16,7 @@ public:// tortoise and hare algo
             slow=slow->next;
             fast=fast->next->next;
 
-            // if it any stabe both combines /colides then the cycle exist we are makein slow move by one and fast by two and then at evry iteration the distance between them get reduced by one, so they will definetly meet
+            // if it any state(fast and slow) both combines /colides then the cycle exist we are makein slow move by one and fast by two and then at evry iteration the distance between them get reduced by one, so they will definetly meet
 
             if(slow==fast){
                 return true;
